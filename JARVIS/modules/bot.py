@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        jarvis = await e.reply(f"☞︎︎︎ 𝐉𝐀𝐑𝐕𝐈𝐒")
+        jarvis = await e.reply(f"☞︎︎︎ 𝐍𝐎𝐓𝐓𝐘👻")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"[𝐉𝐀𝐑𝐕𝐈𝐒 𝐈𝐒 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 ](https://t.me/BWANDARLOK)[𝐇𝐀𝐓𝐄𝐑𝐒 🥀](https://t.me/TEAM_CDX)🤖\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"[🇳𝐎𝐓𝐓𝐘 𝐈𝐒 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊💥 ](https://t.me/BWANDARLOK)[𝐇𝐀𝐓𝐄𝐑𝐒 🥀](https://t.me/TEAM_CDX)🤖\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"YE BHI JARVIS KA HI BACHA HAI.. !!")
+            await ok.edit(f"YE BHI 𝐍𝐎𝐓𝐓𝐘 KA HI BACHA HAI.. !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
