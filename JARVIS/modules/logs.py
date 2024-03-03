@@ -42,7 +42,7 @@ async def logs(ANNIE):
         fetch = await ANNIE.reply(f"__Fetching Logs...__")
     
         with open("JARVISlogs.txt", "w") as logfile:
-            logfile.write("⚡ JARVISBOTS ⚡ [ Bot Logs ]\n\n" + logs)
+            logfile.write("⚡ NOTTY BOT ⚡ [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
