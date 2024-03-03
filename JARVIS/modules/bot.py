@@ -185,7 +185,7 @@ async def show_sudo_users(event):
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("Only Jarvis view the sudo users list.")
+        await event.reply("Only NOTTY view the sudo users list.")
 
 
 
