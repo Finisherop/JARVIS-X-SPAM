@@ -104,7 +104,7 @@ async def rraid(e):
             elif user_id == OWNER_ID:
                 await e.reply("BETA BAAP PE RAID NHI KRTE HAI....")
             elif user_id in SUDO_USERS:
-                await e.reply("=YE BHI JARVIS KA BACHA HAI ISPE RAID MAT MARO.. !!...")
+                await e.reply("=YE BHI NOTTY KA BACHA HAI ISPE RAID MAT MARO.. !!...")
             else:
                 global REPLY_RAID
                 check = f"{user_id}_{e.chat_id}"
@@ -140,7 +140,7 @@ async def drraid(e):
             global REPLY_RAID
             if check in REPLY_RAID:
                 REPLY_RAID.remove(check)
-            await e.reply("» HAT GYA REPLY RAID !! ✅")
+            await e.reply("» BHENCHOD BACH GYA NOTTY SE🤣🤣 WERMA AESI MA CHOD THA ZINDAGI BHR YAAD RKH TEE🤣😈 !! ✅")
         except NameError:
             await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}drraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}drraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
@@ -250,7 +250,7 @@ async def craid(e):
             elif uid == OWNER_ID:
                 await e.reply("BETA BAAP PE RAID NHI KRTE HAI....")
             elif uid in SUDO_USERS:
-                await e.reply("YE BHI JARVIS KA BACHA HAI ISPE RAID MAT MARO.. !!....")
+                await e.reply("YE BHI NOTTY KA BACHA HAI ISPE RAID MAT MARO.. !!....")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
