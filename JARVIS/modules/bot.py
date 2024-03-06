@@ -24,7 +24,7 @@ async def ping(e):
         jarvis = await e.reply(f"☞︎︎︎ 𝐍𝐎𝐓𝐓𝐘👻")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"[🇳𝐎𝐓𝐓𝐘 𝐈𝐒 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊💥 ](https://t.me/STUDENTS_CHATTING_GROUP_v)[𝐇𝐀𝐓𝐄𝐑𝐒 🥀](https://t.me/STUDENTS_CHATTING_GROUP_v)🤖\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"[🇳𝐎𝐓𝐓𝐘 🇧𝙾𝐘 𝐈𝐒 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊💥 ](https://t.me/NEXT_TOPPPER)[𝐇𝐀𝐓𝐄𝐑𝐒 🥀](https://t.me/NEXT_TOPPPER)🤖\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __🇳𝐎𝐓𝐓𝐘 Ka Ek Beta Aur Add Ho rha hai..__")
+        ok = await event.reply(f"» __🇳𝐎𝐓𝐓𝐘 𝐊𝐀 Ek Beta Aur Add Ho rha hai😂..__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» BSDK SIRF 𝐍𝐎𝐓𝐓𝐘 SUDO DE SKTA HAI...")
+        await event.reply("» 𝐁𝐒𝐃𝐊 𝐒𝐈𝐑𝐅 𝐍𝐎𝐓𝐓𝐘 𝐇𝐈 𝐒𝐔𝐃𝐎 𝐃𝐄 𝐒𝐊𝐓𝐀 𝐋𝐖𝐃𝐄 😂😂...")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
