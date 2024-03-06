@@ -41,15 +41,15 @@ async def logs(ANNIE):
         start = datetime.now()
         fetch = await ANNIE.reply(f"__Fetching Logs...__")
     
-        with open("JARVISlogs.txt", "w") as logfile:
-            logfile.write("⚡ JARVISBOTS ⚡ [ Bot Logs ]\n\n" + logs)
+        with open("𝐍𝐎𝐓𝐓𝐘𝐁𝐎𝐘logs.txt", "w") as logfile:
+            logfile.write("⚡ 𝐍𝐎𝐓𝐓𝐘 𝐁𝐎𝐘 BOTS ⚡ [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
         await asyncio.sleep(1)
 
         try:
-            await X1.send_file(ANNIE.chat_id, "JARVISlogs.txt", caption=f"⚡ **JARVIS BOTS LOGS** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+            await X1.send_file(ANNIE.chat_id, "NOTTT BOYlogs.txt", caption=f"⚡ **NOTTY BOY BOTS LOGS** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
             await fetch.delete()
         except Exception as e:
             await fetch.edit(f"An Exception Occured!\n\n**ERROR:** {str(e)}")
