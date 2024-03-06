@@ -8,8 +8,8 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/CDX_WORLD/14"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BWANDARLOK")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/NEXT_TOPPPER"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NEXT_TOPPPER")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/Finisherop")
@@ -34,7 +34,7 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [NOTTY](https://t.me/II_FINISHER_II)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [NOTTY](https://t.me/ur_dad_finisher)**\n\n"
         TEXT += f"» **ᴊᴀʀᴠɪs V2 :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
