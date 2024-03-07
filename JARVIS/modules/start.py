@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NEXT_TOPPPER")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Finisherop")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Finisherop/JARVIS-X-SPAM")
     ]
 ]
 
@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
               event.chat_id,
-                    "https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
+                    "https://telegra.ph/file/0bff810c9cade084f4848.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
