@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ NOTTY ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ii_finisher_ii**"
+HELP_STRING = f"★ NOTTY ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @UR_DAD_FINISHER**"
 
 HELP_BUTTON = [
     [
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ ᴊᴀʀᴠɪs ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 𖤍!! @jarvis2O", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ NOTTY ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 𖤍!! @UR_DAD_FINISHER", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -199,5 +199,5 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴘᴀʜʟᴇ notty ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 𖤍!! @II_FINISHER_II", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ notty ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 𖤍!! @UR_DAD_FINISHER", cache_time=0, alert=True)
 
