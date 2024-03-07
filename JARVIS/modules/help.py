@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
+              "https://telegra.ph/file/69aca4245340a67ccd37f.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/CDX_WORLD"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BWANDARLOK")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/NEXT_TOPPPER"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NEXT_TOPPPER")
               ]
             ]
           )
