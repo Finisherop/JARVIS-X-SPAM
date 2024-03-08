@@ -5,14 +5,14 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
+        Button.inline("• 🌸💌𝐂𝐎𝐌𝐌𝐀𝐍𝐃💌🌸 •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/NEXT_TOPPPER"),
+        Button.url("• 🌸💌𝐂𝐇𝐀𝐍𝐍𝐄𝐋💌🌸 •", "https://t.me/NEXT_TOPPPER"),
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NEXT_TOPPPER")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Finisherop/JARVIS-X-SPAM")
+        Button.url("• 🌸💌𝐑𝐄𝐏𝐎💌🌸 •", "https://github.com/Finisherop/JARVIS-X-SPAM")
     ]
 ]
 
