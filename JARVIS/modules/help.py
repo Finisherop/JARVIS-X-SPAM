@@ -7,7 +7,7 @@ HELP_STRING = f"★ NOTTY ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪ�
 
 HELP_BUTTON = [
     [
-      Button.inline("• 💌𝐒𝐏𝐀𝐌💌💭 •", data="spam"),
+      Button.inline("• 💌𝐒𝐏𝐀𝐌💌💭 •               ", data="spam"),
       Button.inline("• 💌𝐑𝐀𝐈𝐃💌💭 •", data="raid")
     ],
     [
@@ -129,15 +129,15 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-                Button.inline("• ʀᴀɪᴅ •", data="raid")
+                Button.inline("• 💌𝐒𝐏𝐀𝐌💌💭 • ", data="spam"),
+                Button.inline(" • 💌𝐑𝐀𝐈𝐃💌💭 • ", data="raid")
               ],
               [
-                Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+                Button.inline("• 💌𝐄𝐗𝐓𝐑𝐀💌💭 •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/NEXT_TOPPPER"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NEXT_TOPPPER")
+                Button.url("• 💌𝐂𝐇𝐀𝐍𝐍𝐄𝐋💌💭 •", "https://t.me/NEXT_TOPPPER"),
+                Button.url("• 💌𝐒𝐔𝐏𝐏𝐎𝐑𝐓💌💭 •", "https://t.me/NEXT_TOPPPER")
               ]
             ]
           )
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴘᴀʜʟᴇ ᴊᴀʀᴠɪs ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 𖤍 !! @II_ABOUT_FINISHER_II", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ NOTTY ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 𖤍 !! @II_ABOUT_FINISHER_II", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
