@@ -7,15 +7,15 @@ HELP_STRING = f"★ NOTTY ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪ�
 
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("• 💌𝐒𝐏𝐀𝐌💌💭 •", data="spam"),
+      Button.inline("• 💌𝐑𝐀𝐈𝐃💌💭 •", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+      Button.inline("• 💌𝐄𝐗𝐓𝐑𝐀💌💭 •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/NEXT_TOPPPER"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NEXT_TOPPPER")
+      Button.url("• 💌𝐂𝐇𝐀𝐍𝐍𝐄𝐋💌💭 •", "https://t.me/NEXT_TOPPPER"),
+      Button.url("• 💌𝐒𝐔𝐏𝐏𝐎𝐑𝐓💌💭 •", "https://t.me/NEXT_TOPPPER")
     ]
   ]
 
