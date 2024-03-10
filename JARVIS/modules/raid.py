@@ -104,7 +104,7 @@ async def rraid(e):
             elif user_id == OWNER_ID:
                 await e.reply("BETA BAAP PE RAID NHI KRTE HAI....")
             elif user_id in SUDO_USERS:
-                await e.reply("=YE BHI JARVIS KA BACHA HAI ISPE RAID MAT MARO.. !!...")
+                await e.reply("=YE BHI NOTTY BOY KA BACHA HAI ISPE RAID MAT MARO.. !!...")
             else:
                 global REPLY_RAID
                 check = f"{user_id}_{e.chat_id}"
